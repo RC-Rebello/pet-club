@@ -1,130 +1,141 @@
-@charset "utf-8";
-    @media screen and (max-width: 481px) {}
-    /*body*/
-    
-    .body {
-        background-color: #FEFEFE;
-    }
-    /* menu-icone */
-    
-    .menu-icone {
-        position: absolute;
-        left: 16px;
-        right: 90.22%;
-        top: 8%;
-        bottom: 34.88%;
-    }
-    /*logo*/
-    
-    .logo {
-        position: absolute;
-        width: 238px;
-        height: 49px;
-        left: 79px;
-        top: 33px;
-    }
-    /*Imagem Moça*/
-    
-    .imagem1 {
-        position: absolute;
-        width: 350px;
-        height: 140px;
-        left: 41px;
-        top: 124px;
-    }
-    /*Texto 1*/
-    
-    .texto1 {
-        position: absolute;
-        width: 354px;
-        height: 66px;
-        left: 37px;
-        top: 264px;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 22px;
-        color: #11859E;
-    }
-    /*Imagem 2*/
-    
-    .imagem2 {
-        position: absolute;
-        width: 140px;
-        height: 140px;
-        left: 41px;
-        top: 441px;
-        border: 1px solid black;
-    }
-    
-    .texto2 {
-        position: absolute;
-        width: 140px;
-        height: 88px;
-        left: 41px;
-        top: 602px;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 22px;
-        color: #11859E;
-    }
-    
-    .imagem3 {
-        position: absolute;
-        width: 140px;
-        height: 140px;
-        left: 251px;
-        top: 441px;
-        border: 1px solid black;
-    }
-    
-    .texto3 {
-        position: absolute;
-        width: 140px;
-        height: 88px;
-        left: 0px;
-        top: 160px;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 22px;
-        color: #11859E;
-    }
-    
-    .login {
-        position: absolute;
-        width: 252px;
-        height: 48px;
-        left: 88px;
-        top: 766px;
-        background: rgba(172, 238, 252, 0.1);
-        border: 1px solid #000000;
-    }
-    
-    .facebook {
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        left: 100px;
-        top: 830px;
-    }
-    
-    .google {
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        left: 184px;
-        top: 830px;
-    }
-    
-    .apple {
-        position: absolute;
-        width: 60px;
-        height: 60px;
-        left: 268px;
-        top: 830px;
-    }
+@media screen and (max-width: 481px) {}
+
+
+/*body*/
+
+.body {
+    background-color: #FEFEFE;
+}
+
+
+/* menu-icone */
+
+.menu-icone {
+    position: absolute;
+    left: 16px;
+    right: 90.22%;
+    top: 8%;
+    bottom: 34.88%;
+}
+
+
+/*logo*/
+
+.logo {
+    position: absolute;
+    width: 238px;
+    height: 49px;
+    left: 79px;
+    top: 33px;
+}
+
+
+/*Imagem Moça*/
+
+.imagem1 {
+    position: absolute;
+    width: 350px;
+    height: 140px;
+    left: 41px;
+    top: 124px;
+}
+
+
+/*Texto 1*/
+
+.texto1 {
+    position: absolute;
+    width: 354px;
+    height: 66px;
+    left: 37px;
+    top: 264px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #11859E;
+}
+
+
+/*Imagem 2*/
+
+.imagem2 {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 41px;
+    top: 441px;
+    border: 1px solid black;
+}
+
+.texto2 {
+    position: absolute;
+    width: 140px;
+    height: 88px;
+    left: 41px;
+    top: 602px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #11859E;
+}
+
+.imagem3 {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 251px;
+    top: 441px;
+    border: 1px solid black;
+}
+
+.texto3 {
+    position: absolute;
+    width: 140px;
+    height: 88px;
+    left: 0px;
+    top: 160px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #11859E;
+}
+
+.login {
+    position: absolute;
+    width: 252px;
+    height: 48px;
+    left: 88px;
+    top: 766px;
+    background: rgba(172, 238, 252, 0.1);
+    border: 1px solid #000000;
+}
+
+.facebook {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 100px;
+    top: 830px;
+}
+
+.google {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 184px;
+    top: 830px;
+}
+
+.apple {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 268px;
+    top: 830px;
+}
